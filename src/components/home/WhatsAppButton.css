@@ -1,0 +1,11 @@
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px; /* Ajusta la distancia desde el fondo */
+    right: 20px;   /* Ajusta la distancia desde la izquierda */
+    z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+}
+
+.whatsapp-button img {
+    width: 60px; /* Cambia el tamaño del logo según lo necesites */
+    height: auto; /* Mantiene la proporción de la imagen */
+}

@@ -1,0 +1,304 @@
+main.table {
+    width: 82vw;
+    height: 90vh;
+    background-color: rgba(255, 254, 254, 0.443);
+    
+    box-shadow: 0 .4rem .8rem #fff5;
+    border-radius: .8rem;
+    
+    }
+    
+    .table__header {
+    width: 100%;
+    height: 10%;
+    background-color: none;
+    padding: .8rem 1rem;
+    }
+    
+    .table__body {
+    width: 95%;
+    max-height: calc(89% - .8rem);
+    background-color: #fffb;
+    
+    margin: .8rem auto;
+    border-radius: .6rem;
+    
+    overflow: auto;
+    }
+    
+    .table__body::-webkit-scrollbar {
+    width: 0.5rem;
+    height: 0.5rem;
+    }
+    
+    .table__body::-webkit-scrollbar-thumb {
+    border-radius: .5rem;
+    background-color: #0004;
+    visibility: hidden;
+    }
+    
+    .table__body:hover::-webkit-scrollbar-thumb {
+    visibility: visible;
+    }
+    
+    
+    table, th, td {
+    border-collapse: collapse;
+    padding: 1rem;
+    }
+    
+    
+    thead th {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #d5d1defe;
+    }
+    
+    tbody tr:nth-child(even) {
+    background-color: #0000000b;
+    }
+    
+    tbody tr:hover {
+    background-color: #fff6;
+    }
+    
+    
+    
+    
+    /*boton de redes sociales 1*//*--------------------------------------------------------------------------------*/
+    
+    
+    
+    /*boton de redes sociales 1*/
+    
+    .container-buttons {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      /* background-color: #FFF; */
+      min-width: 70px;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .container-buttons a {
+      width: 70px;
+      height: 70px;
+      display: block;
+      border-radius: 50%;
+      /* line-height: 70px; */
+      color: #FFF;
+      background-color: #af0808;
+      text-decoration: none;
+      overflow: hidden;
+      text-align: center;
+      font-size: 2.2rem;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, .9);
+    }
+    
+    .container-buttons a::before {
+      content: "\f232";
+      display: block;
+      margin: 19px 0;
+      transition: all .5s ease-in-out;
+    }
+    
+    .container-buttons a:hover::before {
+      margin-top: -37px;
+    }
+    
+    .container-buttons a::after {
+      content: "\f25a";
+      display: block;
+    }
+    
+    /*hasta aqui*/
+    
+    /*boton de redes sociales 2*/
+    
+    .container-buttons1 {
+      position: absolute;
+      top: 50%;
+      left: 60%;
+      transform: translate(-50%, -50%);
+      /* background-color: #FFF; */
+      min-width: 70px;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .container-buttons1 a {
+      width: 70px;
+      height: 70px;
+      display: block;
+      border-radius: 50%;
+      /* line-height: 70px; */
+      color: #FFF;
+      background-color: #af0808;
+      text-decoration: none;
+      overflow: hidden;
+      text-align: center;
+      font-size: 2.2rem;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, .9);
+    }
+    
+    .container-buttons1 a::before {
+      content: "\f099";
+      display: block;
+      margin: 19px 0;
+      transition: all .5s ease-in-out;
+    }
+    
+    .container-buttons1 a:hover::before {
+      margin-top: -37px;
+    }
+    
+    .container-buttons1 a::after {
+      content: "\f25a";
+      display: block;
+    }
+    
+    /*hasta aqui*/
+    
+    
+    /*boton de redes sociales 3*/
+    
+    .container-buttons2 {
+      position: absolute;
+      top: 50%;
+      left: 40%;
+      transform: translate(-50%, -50%);
+      /* background-color: #FFF; */
+      min-width: 70px;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .container-buttons2 a {
+      width: 70px;
+      height: 70px;
+      display: block;
+      border-radius: 50%;
+      /* line-height: 70px; */
+      color: #FFF;
+      background-color: #af0808;
+      text-decoration: none;
+      overflow: hidden;
+      text-align: center;
+      font-size: 2.2rem;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, .9);
+    }
+    
+    .container-buttons2 a::before {
+      content: "\f09a";
+      display: block;
+      margin: 19px 0;
+      transition: all .5s ease-in-out;
+    }
+    
+    .container-buttons2 a:hover::before {
+      margin-top: -37px;
+    }
+    
+    .container-buttons2 a::after {
+      content: "\f25a";
+      display: block;
+    }
+    
+    /*hasta aqui*/
+    
+    
+    /*boton de redes sociales 4*/
+    
+    .container-buttons3 {
+      position: absolute;
+      top: 50%;
+      left: 30%;
+      transform: translate(-50%, -50%);
+      /* background-color: #FFF; */
+      min-width: 70px;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .container-buttons3 a {
+      width: 70px;
+      height: 70px;
+      display: block;
+      border-radius: 50%;
+      /* line-height: 70px; */
+      color: #FFF;
+      background-color: #af0808;
+      text-decoration: none;
+      overflow: hidden;
+      text-align: center;
+      font-size: 2.2rem;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, .9);
+    }
+    
+    .container-buttons3 a::before {
+      content: "\f16d";
+      display: block;
+      margin: 19px 0;
+      transition: all .5s ease-in-out;
+    }
+    
+    .container-buttons3 a:hover::before {
+      margin-top: -37px;
+    }
+    
+    .container-buttons3 a::after {
+      content: "\f25a";
+      display: block;
+    }
+    
+    /*hasta aqui*/
+    
+    
+    /*boton de redes sociales 5*/
+    
+    .container-buttons4 {
+      position: absolute;
+      top: 50%;
+      left: 70%;
+      transform: translate(-50%, -50%);
+      /* background-color: #FFF; */
+      min-width: 70px;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .container-buttons4 a {
+      width: 70px;
+      height: 70px;
+      display: block;
+      border-radius: 50%;
+      /* line-height: 70px; */
+      color: #FFF;
+      background-color: #af0808;
+      text-decoration: none;
+      overflow: hidden;
+      text-align: center;
+      font-size: 2.2rem;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, .9);
+    }
+    
+    .container-buttons4 a::before {
+      content: "\f166";
+      display: block;
+      margin: 19px 0;
+      transition: all .5s ease-in-out;
+    }
+    
+    .container-buttons4 a:hover::before {
+      margin-top: -37px;
+    }
+    
+    .container-buttons4 a::after {
+      content: "\f25a";
+      display: block;
+    }
+    
+    /*hasta aqui*/

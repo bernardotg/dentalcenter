@@ -1,0 +1,19 @@
+.header {
+    background-image: url('assets/img/dentalcenter_lado.png'); /* Asegúrate de que la ruta sea correcta */
+    background-size: 600px; /* Ajusta el tamaño de la imagen */
+    background-position: right;
+    background-repeat: no-repeat;
+   
+  }
+
+  @media (max-width: 1100px){
+
+    .header {
+        background-image: url('assets/img/dentalcenter_lado.png'); /* Asegúrate de que la ruta sea correcta */
+        background-size: 100px; /* Ajusta el tamaño de la imagen */
+        background-position: right;
+        background-repeat: no-repeat;
+       
+      }
+
+  }
